@@ -1,0 +1,23 @@
+{
+  "name": "playwright-tutorial-2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test_dev": "cross-env TEST_ENV=dev npx playwright test",
+    "test_uat": "cross-env TEST_ENV=uat npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.2"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.4.1",
+    "cross-env": "^10.1.0",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.3"
+  }
+}

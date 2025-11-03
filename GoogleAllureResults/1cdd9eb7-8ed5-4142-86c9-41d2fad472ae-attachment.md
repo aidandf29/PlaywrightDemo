@@ -1,0 +1,103 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1] [cursor=pointer]:
+  - generic [ref=e2] [cursor=pointer]:
+    - banner [ref=e3] [cursor=pointer]:
+      - button "Menu utama" [ref=e5] [cursor=pointer]:
+        - img [ref=e6] [cursor=pointer]
+      - generic [ref=e9] [cursor=pointer]:
+        - generic [ref=e10] [cursor=pointer]: Semua
+        - link "Gambar" [ref=e11]:
+          - /url: https://www.google.com/webhp?sca_esv=02e200be2475648c&output=search&tbm=isch&tbo=u&sa=X&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ0tQDCAUoAQ
+      - link "Notifikasi" [ref=e13]:
+        - /url: https://iga.google.com/url?url=googleapp://notification-center?min-version%3D253&ifl=https://www.google.com/search/notifications&ct=ios.now.n.we.hpsignoutinbox&utm_campaign=ios.now.n.we.hpsignoutinbox&utm_source=ios.now.n.we.hpsignoutinbox&utm_medium=ios.now.n.we.hpsignoutinbox&hl=id
+        - img [ref=e15]
+      - generic [ref=e21] [cursor=pointer]:
+        - button "Aplikasi Google" [ref=e25] [cursor=pointer]:
+          - img [ref=e26] [cursor=pointer]
+        - link "Login" [ref=e29]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=id&passive=true&continue=https://www.google.com/%3Fnoiga%3D1&ec=GAZAAQ
+          - generic [ref=e30]: Login
+    - generic [ref=e31] [cursor=pointer]:
+      - img "Google" [ref=e33] [cursor=pointer]
+      - generic [ref=e40] [cursor=pointer]:
+        - search [ref=e42] [cursor=pointer]:
+          - generic [ref=e45] [cursor=pointer]:
+            - button "Penelusuran Google" [ref=e46]:
+              - img [ref=e49]
+            - combobox [ref=e51] [cursor=pointer]:
+              - textbox "Penelusuran Google" [ref=e52]
+            - link "Lakukan penelusuran menggunakan kamera atau foto" [ref=e55] [cursor=pointer]:
+              - /url: https://search.app.goo.gl/?ofl=https%3A%2F%2Flens.google&al=googleapp%3A%2F%2Flens%3Flens_data%3DKAw&apn=com.google.android.googlequicksearchbox&amv=301103376&isi=284815942&ius=googleapp&ibi=com.google.GoogleMobile&link=https%3A%2F%2Fgoo.gl%2Fiosgoogleapp%2Fdefault%3Furl%3Dgoogleapp%253A%252F%252Flens%253Fmin-version%253D180%2526lens_data%253DKAw&ifl=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fgoogle%2Fid284815942%3Fppid%3D1ac8cc35-d99c-4a1d-b909-321c8968cc74%26pt%3D9008%26mt%3D8%26ct%3D4740761-oo-lens-sb-bar-lens-cam%26UTM_campaign%3Dgoogle_search_mweb&efr=1&ct=4740761-oo-lens-sb-bar-lens-cam&utm_campaign=4740761-oo-lens-sb-bar-lens-cam&utm_source=google_search_mweb&utm_medium=owned&pt=9008&mt=8
+              - img [ref=e56] [cursor=pointer]
+        - generic [ref=e60] [cursor=pointer]:
+          - generic [ref=e61] [cursor=pointer]: "Google tersedia dalam bahasa:"
+          - generic [ref=e62] [cursor=pointer]:
+            - link "English" [ref=e63]:
+              - /url: https://www.google.com/setprefs?sig=0_hXjpQCqIiNyDZdBekDzrxu99dNo%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ2ZgBCBc
+            - link [ref=e64]:
+              - /url: https://www.google.com/setprefs?sig=0_hXjpQCqIiNyDZdBekDzrxu99dNo%3D&hl=jv&source=homepage&sa=X&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ2ZgBCBg
+            - link "Basa Bali" [ref=e65]:
+              - /url: https://www.google.com/setprefs?sig=0_hXjpQCqIiNyDZdBekDzrxu99dNo%3D&hl=ban&source=homepage&sa=X&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ2ZgBCBk
+        - generic [ref=e67] [cursor=pointer]:
+          - generic [ref=e68] [cursor=pointer]:
+            - heading "Penelusuran trending" [level=1] [ref=e69]
+            - button "Opsi lainnya" [ref=e72] [cursor=pointer]:
+              - img [ref=e75] [cursor=pointer]
+          - list [ref=e77] [cursor=pointer]:
+            - link "klaim saldo dana gratis" [ref=e78] [cursor=pointer]:
+              - link "klaim saldo dana gratis" [ref=e79]:
+                - /url: /search?q=klaim%20saldo%20dana%20gratis&oq&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ470GCCA&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgAEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEC4YAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD0gmyBgYQKBgoKAE&gs_ss=1
+                - img [ref=e81]
+                - generic [ref=e84]: klaim saldo dana gratis
+            - link "harga emas antam" [ref=e85] [cursor=pointer]:
+              - link "harga emas antam" [ref=e86]:
+                - /url: /search?q=harga%20emas%20antam&oq&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ470GCCA&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgBEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEC4YAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD0gmyBgYQKBgoKAE&gs_ss=1
+                - img [ref=e88]
+                - generic [ref=e91]: harga emas antam
+            - link "bacaan injil katolik" [ref=e92] [cursor=pointer]:
+              - link "bacaan injil katolik" [ref=e93]:
+                - /url: /search?q=bacaan%20injil%20katolik&oq&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ470GCCA&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgCEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEC4YAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD0gmyBgYQKBgoKAE&gs_ss=1
+                - img [ref=e95]
+                - generic [ref=e98]: bacaan injil katolik
+            - link "amien rais Mantan Ketua Majelis Permusyawaratan Rakyat Republik Indonesia" [ref=e99] [cursor=pointer]:
+              - link "amien rais Mantan Ketua Majelis Permusyawaratan Rakyat Republik Indonesia" [ref=e100]:
+                - /url: /search?q=amien%20rais&oq&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ470GCCA&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgDEC4YAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEC4YAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD0gmyBgYQKBgoKAE&gs_ssp=eJzj4tTP1TcwLiswKjFg9OJKzM1MzVMoSswsBgBQLwcs
+                - img [ref=e102]
+                - generic [ref=e104]:
+                  - generic [ref=e105]: amien rais
+                  - generic [ref=e106]: Mantan Ketua Majelis Permusyawaratan Rakyat Republik Indonesia
+            - link "kenaikan gaji pensiunan pns" [ref=e108] [cursor=pointer]:
+              - link "kenaikan gaji pensiunan pns" [ref=e109]:
+                - /url: /search?q=kenaikan%20gaji%20pensiunan%20pns&oq&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ470GCCA&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgEEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEC4YAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD0gmyBgYQKBgoKAE&gs_ss=1
+                - img [ref=e111]
+                - generic [ref=e114]: kenaikan gaji pensiunan pns
+            - link "kalender jawa" [ref=e115] [cursor=pointer]:
+              - link "kalender jawa" [ref=e116]:
+                - /url: /search?q=kalender%20jawa&oq&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ470GCCA&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgFEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEC4YAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD0gmyBgYQKBgoKAE&gs_ss=1
+                - img [ref=e118]
+                - generic [ref=e121]: kalender jawa
+            - link "pinjaman kur bri" [ref=e122] [cursor=pointer]:
+              - link "pinjaman kur bri" [ref=e123]:
+                - /url: /search?q=pinjaman%20kur%20bri&oq&ved=0ahUKEwi5y-6ctsGQAxUz2DgGHbx8DfIQ470GCCA&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgGEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEC4YAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD0gmyBgYQKBgoKAE&gs_ss=1
+                - img [ref=e125]
+                - generic [ref=e128]: pinjaman kur bri
+    - generic [ref=e131] [cursor=pointer]:
+      - generic [ref=e134] [cursor=pointer]: Indonesia
+      - generic [ref=e135] [cursor=pointer]:
+        - 'link "Tema gelap: nonaktif" [ref=e136]':
+          - /url: "#"
+        - button "Setelan" [ref=e140]
+        - link "Privasi" [ref=e141]:
+          - /url: https://policies.google.com/privacy?hl=id&fg=1
+        - link "Persyaratan" [ref=e142]:
+          - /url: https://policies.google.com/terms?hl=id&fg=1
+  - generic [ref=e144] [cursor=pointer]:
+    - link "Periklanan" [ref=e145]:
+      - /url: https://www.google.com/intl/id_id/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+    - link "Bisnis" [ref=e146]:
+      - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+    - link "Tentang" [ref=e147]:
+      - /url: https://about.google/?utm_source=google-ID&utm_medium=referral&utm_campaign=hp-footer&fg=1
+```
