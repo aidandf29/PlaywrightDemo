@@ -43,6 +43,7 @@ export default defineConfig({
     ],
     // 2. Line Reporter
     ["line"],
+    ["github"],
     // 3. HTML Reporter
     ["html", { open: "on-failure" }],
   ],
