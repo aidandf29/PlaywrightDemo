@@ -64,7 +64,7 @@ export default defineConfig({
     video: "retain-on-failure",
     trace: "retain-on-failure",
     testIdAttribute: "data-test",
-    headless: false,
+    headless: true,
     baseURL: "https://restful-booker.herokuapp.com",
     extraHTTPHeaders: {
       accept: "application/json",
