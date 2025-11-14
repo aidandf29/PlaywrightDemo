@@ -23,3 +23,11 @@ test("Practice Test 6", async ({ page }) => {
   await expect(page).toHaveTitle("Google");
   console.log("Ending Practice Test 6");
 });
+
+test("Practice Test 7", async ({ page }) => {
+  console.log("Starting Practice Test 7");
+  await page.goto("https://www.google.com/");
+  console.log(await page.title());
+  await expect(page).toHaveTitle("Google");
+  console.log("Ending Practice Test 6");
+});
