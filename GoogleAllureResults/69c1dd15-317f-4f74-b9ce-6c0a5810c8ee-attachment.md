@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1] [cursor=pointer]:
+  - generic [ref=e2] [cursor=pointer]:
+    - banner [ref=e3] [cursor=pointer]:
+      - button "Menu utama" [ref=e5] [cursor=pointer]:
+        - img [ref=e6] [cursor=pointer]
+      - generic [ref=e9] [cursor=pointer]:
+        - generic [ref=e10] [cursor=pointer]: Semua
+        - link "Gambar" [ref=e11]:
+          - /url: https://www.google.com/webhp?sca_esv=2286498253ea9ec4&output=search&tbm=isch&tbo=u&sa=X&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ0tQDCAUoAQ
+      - link "Notifikasi" [ref=e13]:
+        - /url: https://iga.google.com/url?url=googleapp://notification-center?min-version%3D253&ifl=https://www.google.com/search/notifications&ct=ios.now.n.we.hpsignoutinbox&utm_campaign=ios.now.n.we.hpsignoutinbox&utm_source=ios.now.n.we.hpsignoutinbox&utm_medium=ios.now.n.we.hpsignoutinbox&hl=id
+        - img [ref=e15]
+      - generic [ref=e21] [cursor=pointer]:
+        - button "Aplikasi Google" [ref=e25] [cursor=pointer]:
+          - img [ref=e26] [cursor=pointer]
+        - link "Login" [ref=e29]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=id&passive=true&continue=https://www.google.com/%3Fnoiga%3D1&ec=GAZAAQ
+          - generic [ref=e30]: Login
+    - generic [ref=e31] [cursor=pointer]:
+      - generic [ref=e33] [cursor=pointer]:
+        - link "Hari Ayah 2025" [ref=e34]:
+          - /url: /search?q=Hari+Ayah&oi=ddle&noiga=1&ct=389733405&hl=id&si=AMgyJEvmed8FkyEkpEJ8jfGhZkakcy5kQho_c4G-QJRdklshMqg30MojWacdlJexjHYVfnzc0gIlDlMiZVdxWIvSCIuZ49FVVDRG0mMHwlvaWISjFcLlxe2JhG8Md5dg1KE_lsqh13iFYkMXFSZad9Up9NDbXAuJGgqNvGk0Ztq1z4WT7yl8dbg%3D&ictx=1&sa=X&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQPQgP
+          - img "Hari Ayah 2025" [ref=e35]
+        - generic:
+          - button "Bagikan":
+            - img [ref=e40] [cursor=pointer]
+      - generic [ref=e42] [cursor=pointer]:
+        - search [ref=e44] [cursor=pointer]:
+          - generic [ref=e47] [cursor=pointer]:
+            - button "Penelusuran Google" [ref=e48]:
+              - img [ref=e51]
+            - combobox [ref=e53] [cursor=pointer]:
+              - textbox "Penelusuran Google" [ref=e54]
+            - link "Lakukan penelusuran menggunakan kamera atau foto" [ref=e57] [cursor=pointer]:
+              - /url: https://search.app.goo.gl/?ofl=https%3A%2F%2Flens.google&al=googleapp%3A%2F%2Flens%3Flens_data%3DKAw&apn=com.google.android.googlequicksearchbox&amv=301103376&isi=284815942&ius=googleapp&ibi=com.google.GoogleMobile&link=https%3A%2F%2Fgoo.gl%2Fiosgoogleapp%2Fdefault%3Furl%3Dgoogleapp%253A%252F%252Flens%253Fmin-version%253D180%2526lens_data%253DKAw&ifl=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fgoogle%2Fid284815942%3Fppid%3D1ac8cc35-d99c-4a1d-b909-321c8968cc74%26pt%3D9008%26mt%3D8%26ct%3D4740761-oo-lens-sb-bar-lens-cam%26UTM_campaign%3Dgoogle_search_mweb&efr=1&ct=4740761-oo-lens-sb-bar-lens-cam&utm_campaign=4740761-oo-lens-sb-bar-lens-cam&utm_source=google_search_mweb&utm_medium=owned&pt=9008&mt=8
+              - img [ref=e58] [cursor=pointer]
+        - generic [ref=e62] [cursor=pointer]:
+          - generic [ref=e63] [cursor=pointer]: "Google tersedia dalam bahasa:"
+          - generic [ref=e64] [cursor=pointer]:
+            - link "English" [ref=e65]:
+              - /url: https://www.google.com/setprefs?sig=0_1hqzRhS4X6ImAL081LVwhvup9cQ%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ2ZgBCCo
+            - link [ref=e66]:
+              - /url: https://www.google.com/setprefs?sig=0_1hqzRhS4X6ImAL081LVwhvup9cQ%3D&hl=jv&source=homepage&sa=X&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ2ZgBCCs
+            - link "Basa Bali" [ref=e67]:
+              - /url: https://www.google.com/setprefs?sig=0_1hqzRhS4X6ImAL081LVwhvup9cQ%3D&hl=ban&source=homepage&sa=X&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ2ZgBCCw
+        - generic [ref=e69] [cursor=pointer]:
+          - generic [ref=e70] [cursor=pointer]:
+            - heading "Penelusuran trending" [level=1] [ref=e71]
+            - button "Opsi lainnya" [ref=e74] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - list [ref=e79] [cursor=pointer]:
+            - link "ucapan selamat hari ayah nasional" [ref=e80] [cursor=pointer]:
+              - link "ucapan selamat hari ayah nasional" [ref=e81]:
+                - /url: /search?q=ucapan%20selamat%20hari%20ayah%20nasional&oq&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ470GCDM&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgAEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD5gmyBgYQLBgsKAE&gs_ss=1
+                - img [ref=e83]
+                - generic [ref=e86]: ucapan selamat hari ayah nasional
+            - link "link twibbon hari kesehatan nasional" [ref=e87] [cursor=pointer]:
+              - link "link twibbon hari kesehatan nasional" [ref=e88]:
+                - /url: /search?q=link%20twibbon%20hari%20kesehatan%20nasional&oq&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ470GCDM&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgBEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD5gmyBgYQLBgsKAE&gs_ss=1
+                - img [ref=e90]
+                - generic [ref=e93]: link twibbon hari kesehatan nasional
+            - link "harga emas antam" [ref=e94] [cursor=pointer]:
+              - link "harga emas antam" [ref=e95]:
+                - /url: /search?q=harga%20emas%20antam&oq&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ470GCDM&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgCEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD5gmyBgYQLBgsKAE&gs_ss=1
+                - img [ref=e97]
+                - generic [ref=e100]: harga emas antam
+            - link "bahan bakar" [ref=e101] [cursor=pointer]:
+              - link "bahan bakar" [ref=e102]:
+                - /url: /search?q=bahan%20bakar&oq&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ470GCDM&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgDEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD5gmyBgYQLBgsKAE&gs_ss=1
+                - img [ref=e104]
+                - generic [ref=e107]: bahan bakar
+            - link "cek bsu bpjs ketenagakerjaan" [ref=e108] [cursor=pointer]:
+              - link "cek bsu bpjs ketenagakerjaan" [ref=e109]:
+                - /url: /search?q=cek%20bsu%20bpjs%20ketenagakerjaan&oq&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ470GCDM&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgEEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD5gmyBgYQLBgsKAE&gs_ss=1
+                - img [ref=e111]
+                - generic [ref=e114]: cek bsu bpjs ketenagakerjaan
+            - link "kenaikan gaji pensiunan pns" [ref=e115] [cursor=pointer]:
+              - link "kenaikan gaji pensiunan pns" [ref=e116]:
+                - /url: /search?q=kenaikan%20gaji%20pensiunan%20pns&oq&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ470GCDM&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgFEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD5gmyBgYQLBgsKAE&gs_ss=1
+                - img [ref=e118]
+                - generic [ref=e121]: kenaikan gaji pensiunan pns
+            - link "syarat kur bri 2025" [ref=e122] [cursor=pointer]:
+              - link "syarat kur bri 2025" [ref=e123]:
+                - /url: /search?q=syarat%20kur%20bri%202025&oq&ved=0ahUKEwj2rLTb-euQAxXyZmwGHVFGAfAQ470GCDM&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgGEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD5gmyBgYQLBgsKAE&gs_ss=1
+                - img [ref=e125]
+                - generic [ref=e128]: syarat kur bri 2025
+    - generic [ref=e131] [cursor=pointer]:
+      - generic [ref=e134] [cursor=pointer]: Indonesia
+      - generic [ref=e135] [cursor=pointer]:
+        - 'link "Tema gelap: nonaktif" [ref=e136]':
+          - /url: "#"
+        - button "Setelan" [ref=e140]
+        - link "Privasi" [ref=e141]:
+          - /url: https://policies.google.com/privacy?hl=id&fg=1
+        - link "Persyaratan" [ref=e142]:
+          - /url: https://policies.google.com/terms?hl=id&fg=1
+  - generic [ref=e144] [cursor=pointer]:
+    - link "Periklanan" [ref=e145]:
+      - /url: https://www.google.com/intl/id_id/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+    - link "Bisnis" [ref=e146]:
+      - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+    - link "Tentang" [ref=e147]:
+      - /url: https://about.google/?utm_source=google-ID&utm_medium=referral&utm_campaign=hp-footer&fg=1
+```
