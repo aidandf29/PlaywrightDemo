@@ -81,16 +81,16 @@ export default defineConfig({
     //   testMatch: /.*\.setup\.ts/,
     //   // testMatch: "global.setup.ts",
     // },
-    {
-      name: "chromium",
-      // dependencies: ["setup"],
+    // {
+    //   name: "chromium",
+    //   // dependencies: ["setup"],
 
-      use: {
-        ...devices["Desktop Chrome"],
+    //   use: {
+    //     ...devices["Desktop Chrome"],
 
-        // storageState: "./playwright/.auth/auth.json",
-      },
-    },
+    //     // storageState: "./playwright/.auth/auth.json",
+    //   },
+    // },
 
     {
       name: "firefox",
